@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ModelValidation.Models
 {
+    [NoJoeOnMondays]
     public class Appointment
     {
         [Required]
