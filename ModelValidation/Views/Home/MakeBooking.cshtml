@@ -8,7 +8,7 @@
 
 @using (Html.BeginForm())
 {
-    @Html.ValidationSummary()
+    @Html.ValidationSummary(true)
     <p>Your name: @Html.EditorFor(m => m.ClientName)</p>
     <p>Appointment Date: @Html.EditorFor(m => m.Date)</p>
     <p>@Html.EditorFor(m => m.TermsAccepted) I accept the terms & conditions</p>
