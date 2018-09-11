@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ModelValidation.Models
 {
-    [NoJoeOnMondays]
+    //[NoJoeOnMondays]
     public class Appointment : IValidatableObject
     {
         //[Required]
