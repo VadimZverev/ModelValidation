@@ -10,7 +10,7 @@ namespace ModelValidation.Models
         public string ClientName { get; set; }
 
         [DataType(DataType.Date)]
-        [FutureDate(ErrorMessage = "Please enter a date")]
+        [FutureDate(ErrorMessage = "Please enter a date in the future")]
         public DateTime Date { get; set; }
 
         //[Range(typeof(bool),"true","true", ErrorMessage = "You must accept the terms")]
